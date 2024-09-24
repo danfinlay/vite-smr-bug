@@ -2,6 +2,12 @@
 
 For some reason this build gets "process is not defined" ReferenceError from Babel, which should only be getting checked for in a non-browser environment.
 
+To reproduce:
+- run `yarn && yarn dev`
+- Open the page in a browser
+- Notice the errors.
+
+You can see the changes that introduced this error in commit add13fac58e737b09d3acb096731388479c5ce4f.
 
 # React Shadcn-UI Template
 
