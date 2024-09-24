@@ -1,3 +1,8 @@
+# Vite Create-Module-Record Bug Repro
+
+For some reason this build gets "process is not defined" ReferenceError from Babel, which should only be getting checked for in a non-browser environment.
+
+
 # React Shadcn-UI Template
 
 This repository provides a boilerplate template for a React application using the [Shadcn-UI](https://github.com/your-link-to-shadcn-ui-repo) library and [Vite](https://vitejs.dev/) as the build tool and development server. The template is designed to help you kickstart your React projects with Shadcn-UI and Vite, offering a fast development environment and optimized production builds.
